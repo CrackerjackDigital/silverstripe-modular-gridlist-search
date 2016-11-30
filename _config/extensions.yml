@@ -1,0 +1,6 @@
+---
+Name: modular-gridlist-search-extensions
+---
+Modular\Model:
+  extensions:
+    - Modular\GridList\Providers\Items\SearchFulltext

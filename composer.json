@@ -1,0 +1,31 @@
+{
+	"name": "crackerjackdigital/silverstripe-modular-gridlist-search",
+	"type": "silverstripe-module",
+	"description": "GridList search item providers",
+	"homepage": "http://github.com/crackerjackdigital",
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"silverstripe"
+	],
+	"authors": [
+		{
+			"name": "Steve Wake",
+			"homepage": "https://github.com/wakes"
+		},
+		{
+			"name": "CrackerJack Digital",
+			"homepage": "http://www.crackerjack.net.nz/"
+		}
+	],
+	"require": {
+		"silverstripe/framework": ">=3.1",
+		"silverstripe/display-logic": "1.4.x",
+		"silverstripe-australia/gridfieldextensions": "1.x",
+		"crackerjackdigital/silverstripe-modular-gridlist": "*",
+		"crackerjackdigital/silverstripe-modular-search": "*"
+	},
+	"extra": {
+		"installer-name": "modular-gridlist-search"
+	},
+	"minimum-stability": "dev"
+}
